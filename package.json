@@ -1,0 +1,25 @@
+{
+  "name": "inversify-project",
+  "version": "1.0.0",
+  "description": "InversifyJS project with controllers",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "inversify": "^6.0.1",
+    "inversify-express-utils": "^6.4.3",
+    "express": "^4.18.2",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "nodemon": "^3.0.1"
+  }
+}
